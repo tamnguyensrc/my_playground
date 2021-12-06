@@ -20,7 +20,7 @@ setup(
     packages=find_packages(exclude=["tests*"]),
     entry_points={
         'console_scripts': [
-            'greet = greet:main'
+            'greet = src.greet:main'
         ]
     },
     include_package_data=True,
